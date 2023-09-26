@@ -1,0 +1,85 @@
+body {
+    background-color:rgb(174, 165, 189);
+}
+#page{
+    width:1200px;
+    min-height:1000px;
+    background-color:rgb(221, 109, 109);
+    margin:0 auto;
+}
+#top{
+    width:1200px;
+    min-height:150px;
+    background-color: rgb(218, 213, 219);
+}
+#navi{
+    width:1200px;
+    min-height:50px;
+    background-color: darkcyan;
+}
+#content{
+    width:1200px;
+    min-height:800px;
+    background-color: rgb(233, 197, 130);
+}
+.navbutton{
+    width:299px;
+    text-align:center;
+    font-size: 16pt;
+    line-height: 2.4;
+    text-transform: uppercase;
+    background-color:burlywood;
+    float:left;
+    margin-right: 1px;
+    color:#ffffff;
+}
+.navbutton:hover{
+background-color: rgb(115, 140, 223);
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    margin-left: -40px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+svg {
+	font-family: "Russo One", sans-serif;
+	width: 100%; height: 100%;
+}
+svg text {
+	animation: stroke 5s infinite alternate;
+	stroke-width: 2;
+	stroke: #365FA0;
+	font-size: 100px;
+}
+@keyframes stroke {
+	0%   {
+		fill: rgba(72,138,204,0); stroke: rgba(54,95,160,1);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+	}
+	70%  {fill: rgba(72,138,204,0); stroke: rgba(54,95,160,1); }
+	80%  {fill: rgba(72,138,204,0); stroke: rgba(54,95,160,1); stroke-width: 3; }
+	100% {
+		fill: rgba(72,138,204,1); stroke: rgba(54,95,160,0);
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
+
+.wrapper {background-color: #FFFFFF};
+
+a.visited{
+    color:#365FA0;
+}
+#sak {
+    background-color:rgb(233, 197, 130);
+}
+#saka {
+    background-color:rgb(233, 197, 130);
+}
+#sakaa {
+    background-color:rgb(233, 197, 130);
+}
+#sakaaa {
+    background-color:rgb(233, 197, 130);
+}
