@@ -83,3 +83,12 @@ a.visited{
 #sakaaa {
     background-color:rgb(233, 197, 130);
 }
+/*formas pozicionēšana*/
+.login{
+    position: relative;
+    width: 250px;
+    height: 300px;
+    background-color: #6b82a7;
+    margin: 0 auto;
+    top: 200px;
+}
