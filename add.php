@@ -6,4 +6,5 @@ $p = md5($_POST['password']);
 
 include("cfg.php");
 $mysqli->query("INSERT INTO `users`(`name`,`sname`,`login`,`password`) VALUES ('$v','$u','$l','$p')");
+
 ?>
